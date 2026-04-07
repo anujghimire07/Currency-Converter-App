@@ -1,0 +1,105 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #D1E3DD;
+            color: #F2F3D9;
+            font-family: "PT Serif", serif;
+        }
+
+        .container {
+            background-color: #151E3F;
+            padding: 8vh;
+            margin: 2vh;
+            border-radius: 2rem;
+            box-shadow: 2px 2px black;
+            width: 25vw;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            font-size: 25px;
+        }
+
+        form {
+            margin: 1rem;
+        }
+
+        form select,
+        input,
+        option {
+            width: 100%;
+            border-radius: 1rem;
+            height: 2rem;
+            border: none;
+
+        }
+option{
+    background-color: #ced4e6;
+}
+        #submit {
+            border-radius: 2rem;
+            height: 3rem;
+        }
+
+        #submit {
+            width: 100%;
+            border: none;
+            font-family: "PT Serif", serif;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        #submit:hover {
+            background-color: #95D7AE;
+            transition: 0.2s background-color ease-in-out;
+        }
+
+        input {
+            height: 3rem;
+            padding-left: 15px;
+        }
+
+        .dropdown {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .icon,
+        .from,
+        .to {
+            margin: 0.8rem;
+            padding: 6px;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .msg {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .select-container {
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+
+        .icon {
+            font-size: 2rem;
+        }
