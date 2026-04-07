@@ -10,32 +10,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(120deg, #fdfbfb, #ebedee);
+    background: #0f172a; /* deep navy */
 }
 
 /* container */
 .container {
-    background: #ffffff;
+    background: #1e293b;
     padding: 35px 30px;
     border-radius: 18px;
     width: 340px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
     text-align: center;
+    color: #e2e8f0;
 }
 
 /* heading */
 h1 {
     font-size: 22px;
     margin-bottom: 20px;
-    color: #444;
     font-weight: 600;
+    color: #f1f5f9;
 }
 
-/* amount input */
+/* input */
 .amount p {
     text-align: left;
-    font-size: 14px;
-    color: #888;
+    font-size: 13px;
+    color: #94a3b8;
 }
 
 .amount input {
@@ -43,32 +44,35 @@ h1 {
     margin-top: 6px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #334155;
     outline: none;
     font-size: 15px;
-    transition: 0.2s;
+    background: #0f172a;
+    color: #e2e8f0;
+    transition: 0.25s;
 }
 
 .amount input:focus {
-    border-color: #c9a7eb;
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 1px #7c3aed;
 }
 
-/* dropdown layout */
+/* dropdown */
 .dropdown {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 22px 0;
 }
 
-/* select box */
 .select-container {
     display: flex;
     align-items: center;
     gap: 6px;
-    background: #f6f6f6;
+    background: #0f172a;
     padding: 6px 10px;
     border-radius: 10px;
+    border: 1px solid #334155;
 }
 
 select {
@@ -76,10 +80,15 @@ select {
     background: transparent;
     outline: none;
     font-size: 14px;
-    color: #555;
+    color: #e2e8f0;
     cursor: pointer;
 }
 
+select option {
+    color: black;
+}
+
+/* flag */
 .flag {
     width: 26px;
     height: 18px;
@@ -89,20 +98,21 @@ select {
 /* icon */
 .icon {
     font-size: 18px;
-    color: #aaa;
+    color: #64748b;
     transition: 0.3s;
 }
 
 .icon:hover {
     transform: rotate(180deg);
-    color: #c9a7eb;
+    color: #a78bfa;
 }
 
 /* message */
 .msg {
     margin: 15px 0;
     font-size: 14px;
-    color: #666;
+    color: #cbd5f5;
+    letter-spacing: 0.5px;
 }
 
 /* button */
@@ -111,7 +121,7 @@ button {
     padding: 10px;
     border-radius: 12px;
     border: none;
-    background: #c9a7eb;
+    background: #7c3aed;
     color: white;
     font-size: 15px;
     cursor: pointer;
@@ -119,9 +129,9 @@ button {
 }
 
 button:hover {
-    background: #b28dd9;
+    background: #6d28d9;
 }
 
 button:active {
-    transform: scale(0.97);
+    transform: scale(0.96);
 }
